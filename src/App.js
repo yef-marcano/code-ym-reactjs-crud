@@ -16,7 +16,7 @@ function App() {
         <p>
           <img src={logo} className="App-logo" alt="logo" width="20%" />
           <h3 className="description-name">
-            Hola soy Yeferson Marcano y este es mi CRUD de practica.
+            Hola soy Yeferson Marcano y este es mi CRUD de practica 2021.
           </h3>
         </p>
         {presentacion}
