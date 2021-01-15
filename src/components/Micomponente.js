@@ -113,7 +113,7 @@ class Micomponente extends Component{
               <br />
               <Button color="success" onClick={() => this.mostrarModalInsertar()}>
                 {" "}
-                Insertar Nueva Gasto{" "}
+                Agregar Nuevo Articulo{" "}
               </Button>
               <br />
               <br />
@@ -149,7 +149,7 @@ class Micomponente extends Component{
             <Modal isOpen={this.state.modallInsertar}>
               <ModalHeader>
                 <div>
-                  <h3> Insertar Nuevo</h3>
+                  <h3> Agregar Nuevo Articulo</h3>
                 </div>
               </ModalHeader>
               <ModalBody>
@@ -193,7 +193,7 @@ class Micomponente extends Component{
             <Modal isOpen={this.state.modallEditar}>
               <ModalHeader>
                 <div>
-                  <h3> Insertar Nuevo</h3>
+                  <h3> Editar Articulo Numero {this.state.form.id}</h3>
                 </div>
               </ModalHeader>
               <ModalBody>
